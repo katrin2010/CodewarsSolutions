@@ -1,3 +1,5 @@
+//www.codewars.com/kata/53573877d5493b4d6e00050c
+
 function capital(capitals){
     const arr = [];
     for (let i = 0; i < capitals.length; i++) {
@@ -11,3 +13,6 @@ function capital(capitals){
 
     return arr;
 }
+console.log(capital([{"state" : 'Maine', capital: 'Augusta'}
+    , {country: 'Spain', "capital" : "Madrid"}]));
+
